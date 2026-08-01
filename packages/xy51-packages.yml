@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.xy51.com/developer/SDKdown.html
+notes: >-
+  First-party YTS integration SDKs published on the Xiao-Y (xy51 / 小y科技)
+  developer open platform (小y手游开放平台). Distributed as direct ZIP downloads
+  from the provider's Aliyun OSS buckets, not via public package registries
+  (npm, PyPI, Maven Central, NuGet, RubyGems, Packagist, crates.io all
+  probed: no first-party packages). Current versions confirmed live from
+  https://manage.xy51.com/dev/index/res_info on 2026-07-21.
+packages:
+- language: java/kotlin (Android)
+  registry: vendor-download
+  name: YTS_Android-Fusion-AS
+  version: 2.3.3
+  updated: '2025-11-03'
+  description: 安卓融合SDK接入工具包，Android Studio版本 (Android fusion SDK integration toolkit, Android Studio edition)
+  url: https://oss.xy51.com/res/file/184d7b0768fc478d910f0d9c4b3e09c4.zip
+  docs: https://developer.xy51.com/developer/SDKdown.html
+  official: true
+- language: objective-c/swift (iOS)
+  registry: vendor-download
+  name: YTS_iOS
+  version: 1.2.0
+  updated: '2024-05-22'
+  description: iOS接入工具包，支持最低版本为iOS9.0 (iOS integration toolkit, minimum iOS 9.0)
+  url: http://oss.xy51.com/res/file/YTS_iOS.zip
+  docs: https://developer.xy51.com/developer/SDKdown.html
+  official: true
+- language: java (Android)
+  registry: vendor-download
+  name: YTS_Android-AndroidStudio
+  version: 2.1.3
+  updated: '2020-11-30'
+  description: 安卓接入工具包，AndroidStudio版本 (legacy Android integration toolkit, superseded by the Fusion SDK)
+  url: http://syhd-developer-platform.oss-cn-beijing.aliyuncs.com/res/file/fd3284aadcfe4c20a6c57fd5c5c113c4.zip
+  docs: https://developer.xy51.com/developer/SDKdown.html
+  official: true
+  status: legacy

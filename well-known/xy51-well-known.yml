@@ -1,0 +1,38 @@
+generated: '2026-07-21'
+method: searched
+host: https://xy51.com
+notes: >-
+  xy51.com serves a Vue single-page app with an nginx catch-all: every
+  /.well-known/ path returns HTTP 200 with the homepage HTML shell
+  (content-type text/html), not the requested document. No genuine
+  well-known artifacts are published, so no raw files are saved and no
+  WellKnown/SecurityTxt pointer is wired. Probed live 2026-07-21.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  spa_fallback: true
+  published: false
+- path: /.well-known/openid-configuration
+  status: 200
+  spa_fallback: true
+  published: false
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  spa_fallback: true
+  published: false
+- path: /.well-known/api-catalog
+  status: 200
+  spa_fallback: true
+  published: false
+- path: /.well-known/ai-plugin.json
+  status: 200
+  spa_fallback: true
+  published: false
+- path: /llms.txt
+  status: 200
+  spa_fallback: true
+  published: false
+- path: /robots.txt
+  status: 200
+  spa_fallback: true
+  published: false

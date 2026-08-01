@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://manage.xy51.com/dev/index/res_info
+docs: https://developer.xy51.com/developer/SDKdown.html
+notes: >-
+  Xiao-Y Technology publishes no prose API changelog; the developer open
+  platform's SDK resource endpoint (manage.xy51.com/dev/index/res_info,
+  fetched live 2026-07-21) is the provider's dated version surface for the
+  YTS integration SDKs. Entries below are that endpoint's records verbatim.
+scheme: sdk-release-versions
+current:
+  YTS_Android-Fusion-AS: 2.3.3
+  YTS_iOS: 1.2.0
+entries:
+- component: YTS_Android-Fusion-AS
+  version: 2.3.3
+  date: '2025-11-03'
+  highlights:
+  - 安卓融合SDK接入工具包，Android Studio版本 (Android fusion SDK integration toolkit)
+  breaking: false
+- component: YTS_iOS
+  version: 1.2.0
+  date: '2024-05-22'
+  highlights:
+  - iOS接入工具包，支持最低版本为iOS9.0 (iOS integration toolkit, minimum iOS 9.0)
+  breaking: false

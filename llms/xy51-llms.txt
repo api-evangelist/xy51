@@ -1,0 +1,27 @@
+# Xiao-Y Technology (小y科技 / xy51)
+
+> Xiao-Y Technology (小y科技), operated by Beijing Shiyou Interactive Technology Co., Ltd. (北京视游互动科技有限公司), is a Chinese smart-TV and big-screen gaming platform. It runs the 小y游戏厅 TV game store and YFans app, publishes licensed TV editions of titles such as 葫芦娃, 胡莱三国2, 我叫MT2, and 中超荣耀, and operates the 小y手游开放平台 — a developer open platform where game studios integrate via the first-party YTS SDKs (Android Fusion + iOS) to distribute games across smart TVs with remote, gamepad, and phone control. Backed by Qiming Venture Partners. There is no public REST API product; platform integration is SDK-based behind developer registration.
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + live crawl of xy51.com / developer.xy51.com -->
+
+## Developer Platform
+
+- [Developer portal (小y手游开放平台)](https://developer.xy51.com): open platform home with the licensed game catalog
+- [Integration flow (接入流程)](https://developer.xy51.com/developer/access.html): business contact, developer registration, qualification review, game creation, SDK integration, review, launch
+- [Developer registration (开发者注册)](https://developer.xy51.com/register.html): email-based developer sign-up
+- [Game submission (创建游戏)](https://developer.xy51.com/developer/gameSub.html): create a game, obtain SDK integration parameters, upload the game package
+- [SDK downloads (SDK资源下载)](https://developer.xy51.com/developer/SDKdown.html): YTS_Android-Fusion-AS 2.3.3 (2025-11-03), YTS_iOS 1.2.0 (2024-05-22)
+- [Contact / business development](https://developer.xy51.com/contactUs/index.html): hezuo@xy51.com, +86 010-60607747, Haidian, Beijing
+
+## Consumer Platform
+
+- [xy51.com](https://xy51.com): 小y科技 official site — smart-TV games, 小y游戏厅, YFans app
+- [User agreement](https://xy51.com/Project/agreeMent)
+- [Privacy policy](https://xy51.com/Project/privacyAgree)
+
+## Catalog Artifacts (API Evangelist)
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/xy51/refs/heads/main/apis.yml): APIs.json profile for Xiao-Y Technology
+- [Packages / SDKs](https://raw.githubusercontent.com/api-evangelist/xy51/refs/heads/main/packages/xy51-packages.yml): first-party YTS SDK inventory
+- [Changelog](https://raw.githubusercontent.com/api-evangelist/xy51/refs/heads/main/changelog/xy51-changelog.yml): SDK release versions
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/xy51/refs/heads/main/security/xy51-domain-security.yml): TLS/DNS posture probe

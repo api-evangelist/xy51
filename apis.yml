@@ -1,8 +1,25 @@
 aid: xy51
-name: xy51
-description: xy51 is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Xiao-Y Technology (小y科技)
+description: Xiao-Y Technology (小y科技), operated by Beijing Shiyou Interactive Technology
+  Co., Ltd. (北京视游互动科技有限公司), is a Chinese smart-TV and big-screen gaming platform behind
+  the 小y游戏厅 TV game store and YFans app, publishing licensed TV editions of titles
+  like 葫芦娃, 胡莱三国2, 我叫MT2, and 中超荣耀. Its 小y手游开放平台 developer platform onboards game
+  studios through first-party YTS SDKs (Android Fusion and iOS) rather than a public
+  REST API, covering registration, qualification review, game submission, and revenue
+  sharing. A Qiming Venture Partners portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/xy51/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://xy51.com/logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Smart TV
+- Entertainment
+- Mobile Games
+- Game Publishing
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,32 @@ maintainers:
 common:
 - type: Website
   url: https://xy51.com
+- type: DeveloperPortal
+  url: https://developer.xy51.com
+- type: Documentation
+  url: https://developer.xy51.com/developer/access.html
+- type: GettingStarted
+  url: https://developer.xy51.com/developer/devRegister.html
+- type: SignUp
+  url: https://developer.xy51.com/register.html
+- type: Support
+  url: https://developer.xy51.com/contactUs/index.html
+- type: TermsOfService
+  url: https://xy51.com/Project/agreeMent
+- type: PrivacyPolicy
+  url: https://xy51.com/Project/privacyAgree
+- type: Packages
+  url: packages/xy51-packages.yml
+- type: SDKs
+  url: packages/xy51-packages.yml
+- type: ChangeLog
+  url: changelog/xy51-changelog.yml
+- type: LLMsTxt
+  url: llms/xy51-llms.txt
+- type: DomainSecurity
+  url: security/xy51-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
