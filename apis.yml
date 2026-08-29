@@ -8,6 +8,17 @@ description: Xiao-Y Technology (小y科技), operated by Beijing Shiyou Interact
   REST API, covering registration, qualification review, game submission, and revenue
   sharing. A Qiming Venture Partners portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/xy51/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
